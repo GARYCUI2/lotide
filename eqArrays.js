@@ -13,7 +13,7 @@ const eqArrays = function (array1, array2) {
   }
 
   for (let i = 0; i < array1.length - 1; i++) {
-    if (array1[i] != array2[i]) {
+    if (array1[i] !== array2[i]) {
       return false;
     } else {
       return true;
@@ -24,6 +24,13 @@ const eqArrays = function (array1, array2) {
 
 
 
+// FUNCTION IMPLEMENTATION
+const assertObjectsEqual = function(actual, expected) {
+  // Implement me!
+};
+
+
+//test code
 eqArrays([1, 2, 3], [1, 2, 3]); // => true
 eqArrays([1, 2, 3], [3, 2, 1]); // => false
 

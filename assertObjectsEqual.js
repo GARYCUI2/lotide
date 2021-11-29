@@ -40,7 +40,7 @@ const eqObjects = function (object1, object2) {
 // FUNCTION IMPLEMENTATION
 const assertObjectsEqual = function (actual, expected) {
   // Implement me!
-  const inspect = require('util').inspect; // <= add this line
+  const inspect = require('util').inspect; // <= add 
 
 
   let flag = eqObjects(actual, expected);
